@@ -30,5 +30,19 @@ form {
 fieldset {
     border: none;
     padding: 2rem 0;
+}
 
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0;
+    width: 100%;
+}
+
+.inline {
+    width: unset;
 }
